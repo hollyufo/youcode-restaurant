@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px #FC997C;
+    padding: 30px;
+    width: 50%;
+    min-width: 320px;
+    max-width: 450px;
+}
+.special1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lf-input{
+    outline: none;
+    text-align: center;
+}
+.lf-btn{
+    outline: none;
+    text-align: center;
+    padding: 0px 10px;
+}
+.lf-1{
+    display: flex;
+    align-items: center;
+}
